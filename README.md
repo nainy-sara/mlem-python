@@ -154,7 +154,7 @@ epsilon = 0.0000001
 
 ## Author
 
-nainy-sara
+Zeinab Motevalli Bashi Naini
 
 ## Contributing
 
