@@ -87,7 +87,7 @@ jupyter notebook
 ### MLEM Update Formula
 
 ```
-m_{n+1}(x) = m_n(x) * [BP(sinogram / FP(m_n(x)))] / SensitivityImage
+$$n_{i}^{[k+1]}=\frac{n_{i}^{[k]}}{\sum_{j}w_{ij}}\sum_{j}w_{ij}\frac{P_{j}}{\sum_{i}w_{ij}n_{i}^{[k]}}$$
 ```
 
 Where:
