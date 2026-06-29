@@ -4,7 +4,7 @@ A Python implementation of the **MLEM (Maximum Likelihood Expectation Maximizati
 
 ## Overview
 
-This project implements the MLEM algorithm, an iterative statistical method commonly used in medical imaging for reconstructing images from sinogram data (projection data). The algorithm is particularly useful for improving image quality in CT imaging by iteratively refining the reconstruction based on the Radon transform and its inverse.
+This project implements the MLEM algorithm, an iterative statistical method commonly used in medical imaging for reconstructing images from sinogram data (projection data). The algorithm is particu[...]
 
 ## What is MLEM?
 
@@ -86,9 +86,7 @@ jupyter notebook
 
 ### MLEM Update Formula
 
-```
-$$n_{i}^{[k+1]}=\frac{n_{i}^{[k]}}{\sum_{j}w_{ij}}\sum_{j}w_{ij}\frac{P_{j}}{\sum_{i}w_{ij}n_{i}^{[k]}}$$
-```
+![فرمول MLEM](https://latex.codecogs.com/svg.latex?%5Cdisplaystyle%20n_%7Bi%7D%5E%7B%5Bk%2B1%5D%7D%3D%5Cfrac%7Bn_%7Bi%7D%5E%7B%5Bk%5D%7D%7D%7B%5Csum_%7Bj%7Dw_%7Bij%7D%7D%5Csum_%7Bj%7Dw_%7Bij%7D%5Cfrac%7BP_%7Bj%7D%7D%7B%5Csum_%7Bi%7Dw_%7Bij%7Dn_%7Bi%7D%5E%7B%5Bk%5D%7D%7D)
 
 Where:
 - `FP` = Forward Projection (Radon transform)
