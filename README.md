@@ -31,24 +31,6 @@ scikit-image
 IPython
 ```
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/nainy-sara/mlem-python.git
-cd mlem-python
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-Or install manually:
-```bash
-pip install numpy matplotlib scikit-image ipython
-```
-
 ## Usage
 
 The main implementation is in `mlem.ipynb`, a Jupyter notebook that demonstrates the MLEM algorithm step-by-step.
